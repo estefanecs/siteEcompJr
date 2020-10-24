@@ -37,6 +37,7 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: 20px;
+	background: transparent;
 }
 
 .description{
@@ -144,7 +145,7 @@ h2{
     border:none;
     border-radius: 20px;
     background: linear-gradient(to right,#00c4cc,#4682B4,#0174DF,#000080);
-    outline: none;
+    cursor:pointer;
 }
 
 /*----------------------------CONTATO-----------------------------------------------*/
@@ -208,21 +209,18 @@ h2{
     border:none;
     border-radius: 15px;
     background: linear-gradient(to right,#00c4cc,#4682B4,#0174DF,#000080);
-    outline: none;
+    cursor:pointer;
 }
 
 .conteiner_contate{
 	position: static;
 	width: 220px;
-	height: 200px;
+	height: 225px;
 	background: #FFFFFF;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
 	border-radius: 50px 0px;
 }
 #divContato .text{
-	padding-right: 8px;
-   	padding-left: 8px;
-   	padding-top: 8px;
     color: black;
 	font-family: Roboto;
 	font-size: 18px;
@@ -264,7 +262,7 @@ h2{
 .conteiner_img{
 	position: static;
 	width: 230px;
-	height: 154px;
+	height: 155px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
 	border-radius: 50px 0px;
 }
@@ -278,7 +276,14 @@ h2{
     border:none;
     border-radius: 0px 0px 45px 45px;
     background: linear-gradient(to right,#00c4cc,#4682B4,#0174DF,#000080);
-    outline: none;
+    cursor:pointer;
 }
 
-	
+.zoneBlack{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width:100%;
+	background: black;
+}
