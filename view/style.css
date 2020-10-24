@@ -1,0 +1,204 @@
+
+/*-------------------------QUEM SOMOS---------------------------------------*/
+.titulo{
+	position: static;
+	top: 77px;
+	font-family: Roboto;
+	font-size: 40px;
+	line-height: 100px;
+	text-align: center;
+	color: #0174DF;
+}
+
+#designer_we_are{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width:100%;
+}
+
+.container { 
+width: 950px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.description{
+	width: 950px;
+	top: 181px;
+	color: black;
+
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: center;
+	align-self: center;
+}
+
+h2{
+    color: #0174DF;
+	top: 92px;
+	font-family: Roboto;
+	text-align: center;
+}
+
+.conteiner_value{
+	position: static;
+	width: 300px;
+	height: 250px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+	border-radius: 50px 0px;
+	order: 3;
+	align-self: center;
+	align-items: center;
+}
+
+.conteiner_mission{
+	position: static;
+	width: 300px;
+	height: 250px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+	border-radius: 50px 0px;
+	order: 1;
+	align-self:flex-start;
+}
+.conteiner_vision{
+	position: static;
+	width: 300px;
+	height: 250px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+	border-radius: 50px 0px;
+	order: 2;
+	align-items: center;
+	align-self:flex-end;
+}
+#designer_we_are .text{
+	padding-right: 8px;
+   	padding-left: 8px;
+   	padding-top: 8px;
+    color: black;
+	top: 92px;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: center;
+}
+#designer_we_are .container img{
+ 	position: absolute;
+	width: 98px;
+	height: 98px;
+	background: red;
+}
+	
+
+/*----------------------------CONTATO-----------------------------------------------*/
+
+#divContato{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width:100%;
+}
+.textContato{
+	width: 1000px;
+	color: black;
+	font-family: Roboto;
+	font-size: 20px;
+	text-align: center;
+	align-self: center;
+}
+
+#boxForm{
+    background:white;
+    width: 700px;
+    height:250px;
+    align-items: center;
+    padding:25px;   
+}
+
+#divContato .designerBox input{
+    width:100%;
+    padding: 5px;
+    margin: 5px;
+    border:none;
+    border-bottom: solid #0174DF;
+    font-family: Roboto;
+    font-size:20px;
+    color: black;
+    border-radius: 15px;
+    outline: none;
+}
+#divContato .messageDesigner{
+    width:100%;
+    padding: 5px;
+    margin: 5px;
+    border-color: #0174DF;
+    border-bottom: solid #0174DF;
+    font-family: Roboto;
+    font-size:20px;
+    color: black;
+    border-radius: 15px;
+    outline: none;
+}
+.buttonDesigner{
+	align-self: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    width: 105%;
+    padding:10px;
+    border:none;
+    border-radius: 15px;
+    background: linear-gradient(to right,#00c4cc,#4682B4,#0174DF,#000080);
+    outline: none;
+}
+
+.conteiner_contate{
+	position: static;
+	width: 220px;
+	height: 200px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+	border-radius: 50px 0px;
+}
+#divContato .text{
+	padding-right: 8px;
+   	padding-left: 8px;
+   	padding-top: 8px;
+    color: black;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: center;
+}
+/* ------------------------portifolio----------------------------------------------*/
+#designer_portfolio{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width:100%;
+}
+
+.boxPortfolio{
+	border-radius: 15px;
+	background: linear-gradient(to right,#00c4cc,#4682B4,#0174DF,#000080);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+
+    width: 400px;
+    padding:10px;
+    left: 157px;
+    margin: 10px;
+    align-self:flex-start;
+}
+
+	
