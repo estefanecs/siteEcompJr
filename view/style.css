@@ -1,3 +1,30 @@
+/*---------------------MENU------------------------------------------------------*/
+#menu body{
+	margin: 0;
+}
+
+#menu ul{
+	margin: 0;
+	background-color: black;
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	padding: 10px 10px;
+	display: inline-block;
+
+	color: white;
+	text-decoration: none;
+}
+
+#menu img{
+	width: 100px;
+}
+
 /*--------------------PAGINA SUPERIOR-----------------------------------------*/
 
 #designer_home{
@@ -30,7 +57,7 @@
 	color: white;
 	text-shadow: 0px 5px 5px rgba(0, 0, 0, 3);
 }
-.textIdeia{
+.textIdea{
 	position: absolute;
 	width: 575px;
 	height: 91px;
@@ -57,7 +84,7 @@
 	font-size:20px;
 	text-align: center;
 }
-.imgIdeia{
+.imgIdea{
 	position: absolute;
 	width: 109px;
 	left: 1120px;
@@ -67,7 +94,7 @@
 
 
 /*-------------------------QUEM SOMOS---------------------------------------*/
-.titulo_we_are{
+.title_two{
 	position: static;
 	top: 77px;
 	font-family: Roboto;
@@ -78,7 +105,7 @@
 	text-shadow: 2px 5px 5px rgba(0, 0, 0, 3);
 }
 
-.titulo{
+.title{
 	position: static;
 	top: 77px;
 	font-family: Roboto;
@@ -113,7 +140,6 @@
 	width: 950px;
 	top: 181px;
 	color: black;
-
 	font-family: Roboto;
 	font-size: 24px;
 	text-align: center;
@@ -127,7 +153,7 @@ h2{
 	text-align: center;
 }
 
-.conteiner_value{
+.container_value{
 	position: static;
 	width: 320px;
 	height: 260px;
@@ -139,7 +165,7 @@ h2{
 	align-items: center;
 }
 
-.conteiner_mission{
+.container_mission{
 	position: static;
 	width: 320px;
 	height: 260px;
@@ -149,7 +175,7 @@ h2{
 	order: 1;
 	align-self:flex-start;
 }
-.conteiner_vision{
+.container_vision{
 	position: static;
 	width: 320px;
 	height: 260px;
@@ -183,21 +209,45 @@ h2{
 	position: static;
 	align-items: center;
 	width:100%;
-	background: #FFFFFF;
+	background: #006FFF;
+}
+
+#designer_img{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width:100%;
+}
+
+.container_team{
+	position: static;
+	width: 230px;
+	height: 250px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+	border-radius: 50px 0px;
+}
+
+.team{
+	position: absolute;
+	width: 500;
+	height: 300px;
+	left: 100px;
+	top: 1355px;
 }
 
 .boxTeam{
 	align-self: flex-end;
 	position: static;
-	width: 460px;
-	height: 430px;
-	background: yellow;
+	width: 500px;
+	height: 500px;
+	background: black;
 	padding: 10px;
 	align-items: center;
 }
 .teamText{
 	padding: 20px;
-	color: black;
+	color: white;
 	font-family: Roboto;
 	font-size: 20px;
 	line-height: 30px;
@@ -214,97 +264,187 @@ h2{
     border:none;
     border-radius: 20px;
     background: linear-gradient(to right,#00c4cc,#4682B4,#0174DF,#000080);
+    outline: none;
     cursor:pointer;
 }
 
-/*----------------------------CONTATO-----------------------------------------------*/
-
-#divContato{
+/*----------------------------SERVIÇOS-----------------------------------------------*/
+#designerService{
 	align-items: center;
 	display: flex;
 	flex-direction: column;
 	position: relative;
 	width:100%;
 }
-.textContato{
-	width: 1000px;
-	color: black;
-	font-family: Roboto;
-	font-size: 20px;
-	text-align: center;
-	align-self: center;
-}
 
-#boxForm{
-    background:white;
-    width: 700px;
-    height:250px;
-    align-items: center;
-    padding:25px;   
-}
-
-#divContato .designerBox input{
-    width:100%;
-    padding: 5px;
-    margin: 5px;
-    border:none;
-    border-bottom: solid #0174DF;
-    font-family: Roboto;
-    font-size:20px;
-    color: black;
-    border-radius: 15px;
-    outline: none;
-}
-#divContato .messageDesigner{
-    width:100%;
-    padding: 5px;
-    margin: 5px;
-    border-color: #0174DF;
-    border-bottom: solid #0174DF;
-    font-family: Roboto;
-    font-size:20px;
-    color: black;
-    border-radius: 15px;
-    outline: none;
-}
-.buttonDesigner{
-	align-self: center;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: bold;
-    color:black;
-    width: 105%;
-    padding:10px;
-    border:none;
-    border-radius: 15px;
-    background: linear-gradient(to right,#00c4cc,#4682B4,#0174DF,#000080);
-    cursor:pointer;
-}
-
-.conteiner_contate{
-	position: static;
-	width: 220px;
-	height: 225px;
-	background: #FFFFFF;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
-	border-radius: 50px 0px;
-}
-#divContato .text{
-    color: black;
+#designerService .text{
+	padding-right: 8px;
+   	padding-left: 8px;
+   	padding-top: 8px;
+    color: white;
+	top: 92px;
 	font-family: Roboto;
 	font-size: 18px;
 	text-align: center;
 }
-
-.zoneBlack{
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	width:100%;
-	height: 100%;
-	background: black;
+.button{
+    color: #FFF;
+    background-color: green;
+    border: none;
+    height: 60px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
 }
+
+.boxService{
+	align-self: flex-end;
+	position: static;
+	width: 900px;
+	height: 430px;
+	background: white;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+}
+
+.serviceText{
+	padding: 20px;
+	color: black;
+	font-family: Roboto;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.service{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 100px;
+	top:70px;
+}
+.mobile{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 900px;
+	top: 970px;
+}
+
+.desktop{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 900px;
+	top: 600px;
+}
+
+.site{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 900px;
+	top: 200px;
+}
+
+.web{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 900px;
+	top: 1400px;
+}
+
+.ecommerce{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 900px;
+	top: 1800px;
+}
+
+.containerSite{
+	position: static;
+	width: 500px;
+	height: 350px;
+	left: 100px;
+	top: 499px;
+	background: black;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 5);
+	border-radius: 50px 0px;
+	flex: none;
+	order: 2;
+	align-self: flex-end;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+.containerSystems{
+	position: static;
+	width: 500px;
+	height: 350px;
+	left: 000px;
+	top: 100px;
+	background:  black;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 5);
+	border-radius: 50px 0px;
+	flex: none;
+	order: 2;
+	align-self: flex-end;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+.containerMobile{
+	position: static;
+	width: 500px;
+	height: 350px;
+	left: 1000px;
+	top: 100px;
+	background:  black;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 5);
+	border-radius: 50px 0px;
+	order: 2;
+	align-self: flex-end;
+	margin: 0px 0px;
+}
+
+.containerWeb{
+	position: static;
+	width: 500px;
+	height: 350px;
+	left: 1000px;
+	top: 100px;
+	background:  black;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 5);
+	border-radius: 50px 0px;
+	flex: none;
+	order: 2;
+	align-self: flex-end;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+.containerEcommerce{
+	position: static;
+	width: 500px;
+	height: 350px;
+	left: 1000px;
+	top: 100px;
+	background:  black;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 5);
+	border-radius: 50px 0px;
+	flex: none;
+	order: 2;
+	align-self: flex-end;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+
 /* ------------------------portifolio----------------------------------------------*/
 #designer_portfolio{
 	align-items: center;
@@ -338,14 +478,14 @@ h2{
 	justify-content: space-between;
 }
 
-.conteiner_img{
+.container_img{
 	position: static;
 	width: 230px;
 	height: 155px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
 	border-radius: 50px 0px;
 }
-.buttonPortifolio{
+.buttonPortfolio{
     font-family: Roboto;
     font-size: 15px;
     padding-bottom: 5px;
@@ -358,3 +498,91 @@ h2{
     cursor:pointer;
 }
 
+/*----------------------------CONTATO-----------------------------------------------*/
+
+#divContact{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width:100%;
+}
+.textContact{
+	width: 1000px;
+	color: black;
+	font-family: Roboto;
+	font-size: 20px;
+	text-align: center;
+	align-self: center;
+}
+
+#boxForm{
+    background:white;
+    width: 700px;
+    height:250px;
+    align-items: center;
+    padding:25px;   
+}
+
+#divContact .designerBox input{
+    width:100%;
+    padding: 5px;
+    margin: 5px;
+    border:none;
+    border-bottom: solid #0174DF;
+    font-family: Roboto;
+    font-size:20px;
+    color: black;
+    border-radius: 15px;
+    outline: none;
+}
+#divContact .messageDesigner{
+    width:100%;
+    padding: 5px;
+    margin: 5px;
+    border-color: #0174DF;
+    border-bottom: solid #0174DF;
+    font-family: Roboto;
+    font-size:20px;
+    color: black;
+    border-radius: 15px;
+    outline: none;
+}
+.buttonDesigner{
+	align-self: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    width: 105%;
+    padding:10px;
+    border:none;
+    border-radius: 15px;
+    background: linear-gradient(to right,#00c4cc,#4682B4,#0174DF,#000080);
+    cursor:pointer;
+}
+
+.containerContact{
+	position: static;
+	width: 220px;
+	height: 225px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+	border-radius: 50px 0px;
+}
+#divContact .text{
+    color: black;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: center;
+}
+
+.zoneBlack{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width:100%;
+	height: 100%;
+	background: black;
+}

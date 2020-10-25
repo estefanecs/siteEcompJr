@@ -4,13 +4,23 @@
 	<head>
 		<title>EcompJr</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="style.css"/>
 		<link rel="shortcut icon" href="icon.png" type="image/x-png"/>
 	</head>
 
 
 	<body>
-
+<!-------------------MENU----------------------------------------->		
+		<div id="menu">
+			<ul>
+				<li><a href="designer_home"><img src="logoNome.png"></a></li>
+				<li><a href="#designer_we_are"> Quem Somos</a></li>
+				<li><a href="#designer_team"> Equipe</a></li>
+				<li><a href="#designerService"> Serviços</a></li>
+				<li><a href="#designer_portfolio"> Portifólio</a></li>
+				<li><a href="#divContato"> Contato</a></li>
+			</ul>			
+		</div>
 <!-------------------CAPA----------------------------------------->
 
 <div id="designer_home">
@@ -18,22 +28,22 @@
 		<div class="textIcon">
 			EMPRESA JÚNIOR DE ENGENHARIA DE COMPUTAÇÃO DA UEFS
 		</div>
-		<div class="textIdeia">
+		<div class="textIdea">
 			SUA IDEIA A UM PASSO<br> DA REALIDADE.
 		</div>
 		<div>
-			<a href="">
+			<a href="#designer_we_are">
 				<button class="buttonHome">CONHEÇA-NOS</button>
 			</a>
 		</div>
-		<img class="imgIdeia" src="IDEIA.png">
+		<img class="imgIdea" src="IDEIA.png">
 </div>
 <!----------------QUEM SOMOS ------------------------------->
 		<br>
 		<br>
-		<div id=designer_we_are>
+		<div id="designer_we_are">
 			
-			<div class="titulo_we_are">
+			<div class="title_two">
 				QUEM SOMOS
 			</div>
 
@@ -46,38 +56,38 @@
 
 			<div class="container">
 
-				<div class=conteiner_mission>
+				<div class="container_mission">
 					<div>
 						<img src="MISSOES.png">
 					</div>
 					<div>
 						<h2>MISSÃO</h2>
 					</div>
-					<div class=text>
+					<div class="text">
 						Construir juntos um futuro inovador transformando estudantes em <b>profissionais reconhecidos</b> e aprender a <b>vencer desafios</b> através de <b>oportunidades de impacto</b>.
 					</div>
 				</div>
 				
-				<div class=conteiner_vision>
+				<div class="container_vision">
 					<div>
 						<img src="VISAO.png">
 					</div>
 					<div>
 						<h2>VISÃO</h2>
 					</div>
-					<div class=text>
+					<div class="text">
 						Em 2020, <b>denvolver lideres, comprometidos</b> e <b>capacitados</b> que entregam <b>resultados</b>.
 					</div>
 				</div>
 
-				<div class=conteiner_value>
+				<div class="container_value">
 					<div>
 						<img src="VALORES.png">
 					</div>
 					<div>
 						<h2>VALORES</h2>
 					</div>
-					<div class=text>
+					<div class="text">
 						Os valores de uma empresa guiam a conduta da mesma,portanto a EcompJr. baseia-se nos seguintes valores: <b>Protagonismo, assiduidade, relisiênica, constância em resultados, evolução com os erros, conexão com movimento, ética e empatia</b>.
 					</div>
 				</div>	
@@ -85,18 +95,17 @@
 
 		</div>
 <!-----------------------------------EQUIPE------------------------------------>
-	<br> <br> <br>
-
-	<div id=designer_team>
+	<br><br>
+	<div id="designer_team">
 		
 			<div class= "boxTeam">
-				<div class="titulo">
+				<br>
+				<div class="title">
 					NOSSA EQUIPE
 				</div>
-				<div class=teamText>
+				<div class="teamText">
 					Nossa equipe é formada por estudantes do curso de Engenharia de Computação da Universidade Estadual de Feira de Santana que trabalham de forma voluntária com o objetivo de desenvolver projetos de qualidade e aprender como funciona o mercado empresarial.
-					<br>
-					<br>
+					<br><br><br><br>
 					<div>
 						<a href="equipe.html">
 							<button class="buttonTeam">CONHEÇA A EQUIPE</button>
@@ -104,13 +113,36 @@
 					</div>
 
 				</div>
+				<div class="team">
+					<img src="equipee.jpg">
+				</div>
 			</div>	
 	</div>
 
+<!----------------------------SERVIÇOS----------------------------------------->
+	<div id="designerService">
+		<br><br>
+		<div class="boxService">
+			<div class="title">
+				O QUE FAZEMOS
+			</div>
+				
+			<div class="service">
+				<img src="servico.png">
+			</div>
+			<br>
+			<div class="serviceText">
+				Veja alguns dos serviços que a EcompJr oferece para que você possa realizar o projeto dos seus sonhos, remover aquele gargalo operacional automatizando processos e alavancar ainda mais a sua empresa.
+			</div>
+			<br><br>
+			<a href="servicos.html">
+				<button class="buttonTeam">VEJA OS SERVIÇOS</button>
+			</a>
+		</div>
+	</div>
 <!----------------------------PORTFOLIO----------------------------------------->
 	<div id="designer_portfolio">
-			
-			<div class="titulo">
+			<div class="title">
 				PORTFÓLIO
 			</div>
 			<div class="description">
@@ -128,36 +160,36 @@
 			<div class="container_portfolio">
 
 				<div>
-					<img class="conteiner_img" src="ALFA.png">
+					<img class="container_img" src="ALFA.png">
 					<div> 
 						<a href="https://www.alfaconsultoriajuridicajr.com/">
-						<button class="buttonPortifolio">Alfa JR</button>
+						<button class="buttonPortfolio">Alfa JR</button>
 						</a>
 					</div>
 				</div>
 
 				<div>
-					<img class="conteiner_img" src="admjr.png">
+					<img class="container_img" src="admjr.png">
 					<div> 
 						<a href="https://www.admjr.com.br/">
-						<button class="buttonPortifolio">ADM JR</button>
+						<button class="buttonPortfolio">ADM JR</button>
 						</a>
 					</div>
 				</div>
 				<div>
-					<img class="conteiner_img" src="apas.png">
+					<img class="container_img" src="apas.png">
 					<div> 
 						<a href="index.html">
-						<button class="buttonPortifolio">APAS</button>
+						<button class="buttonPortfolio">APAS</button>
 						</a>
 					</div>
 				</div>
 
 				<div>
-					<img class="conteiner_img" src="life.png">
+					<img class="container_img" src="life.png">
 					<div> 
 						<a href="https://lifejr.org.br/">
-						<button class="buttonPortifolio">Life JR</button>
+						<button class="buttonPortfolio">Life JR</button>
 						</a>
 					</div>
 				</div>
@@ -165,39 +197,39 @@
 			</div>
 			<br> <br>
 
-			<!--segunda FILA IMAGEM-->
+			<!--SEGUNDA FILA IMAGEM-->
 			<div class="container_portfolio">
 				<div>
-					<img class="conteiner_img" src="engetec.png">
+					<img class="container_img" src="engetec.png">
 					<div> 
 						<a href="https://engetecjr.com.br/">
-						<button class="buttonPortifolio">Engetec JR</button>
+						<button class="buttonPortfolio">Engetec JR</button>
 						</a>
 					</div>
 				</div>
 
 				<div>
-					<img class="conteiner_img" src="carvalho.png">
+					<img class="container_img" src="carvalho.png">
 					<div> 
 						<a href="https://www.carvalhoalves.com.br/">
-						<button class="buttonPortifolio">Carvalho Alves Advocacia</button>
+						<button class="buttonPortfolio">Carvalho Alves Advocacia</button>
 						</a>
 					</div>
 				</div>
 
 				<div>
-					<img class="conteiner_img" src="tecnoexpress.png">
+					<img class="container_img" src="tecnoexpress.png">
 					<div> 
 						<a href="http://www.tecnoexpress.com.br/">
-						<button class="buttonPortifolio">Tecnoexpress</button>
+						<button class="buttonPortfolio">Tecnoexpress</button>
 						</a>
 					</div>
 				</div>
 				<div>
-					<img class="conteiner_img" src="fbta.png">
+					<img class="container_img" src="fbta.png">
 					<div> 
 						<a href="index.html">
-						<button class="buttonPortifolio"> FBTA </button>
+						<button class="buttonPortfolio"> FBTA </button>
 						</a>
 					</div>
 				</div>
@@ -207,37 +239,37 @@
 			<!--TERCEIRA FILA IMAGEM-->
 			<div class="container_portfolio">
 				<div>
-					<img class="conteiner_img" src="emartes.png">
+					<img class="container_img" src="emartes.png">
 					<div> 
 						<a href="index.html">
-						<button class="buttonPortifolio">Emartes</button>
+						<button class="buttonPortfolio">Emartes</button>
 						</a>
 					</div>
 				</div>
 
 				<div>
-					<img class="conteiner_img" src="pollar.png">
+					<img class="container_img" src="pollar.png">
 					<div> 
 						<a href="http://www.pollarrefrigeracao.com.br/">
-						<button class="buttonPortifolio">Pollar Refrigeração</button>
+						<button class="buttonPortfolio">Pollar Refrigeração</button>
 						</a>
 					</div>
 				</div>
 
 				<div>
-					<img class="conteiner_img" src="souza.png">
+					<img class="container_img" src="souza.png">
 					<div> 
 						<a href="index.html">
-						<button class="buttonPortifolio">Super Souza</button>
+						<button class="buttonPortfolio">Super Souza</button>
 						</a>
 					</div>
 				</div>
 
 				<div>
-					<img class="conteiner_img" src="tripeco.png">
+					<img class="container_img" src="tripeco.png">
 					<div> 
 						<a href="index.html">
-						<button class="buttonPortifolio">Tripeco</button>
+						<button class="buttonPortfolio">Tripeco</button>
 						</a>
 					</div>
 				</div>
@@ -254,28 +286,28 @@
 			<br>
 			<div class="container_portfolio">
 				<div>
-					<img class="conteiner_img" src="colegiado.png">
+					<img class="container_img" src="colegiado.png">
 					<div> 
 						<a href="http://www.ecomp.uefs.br/">
-						<button class="buttonPortifolio">Colegiado Engenharia Computação</button>
+						<button class="buttonPortfolio">Colegiado Engenharia Computação</button>
 						</a>
 					</div>
 				</div>
 
 				<div>
-					<img class="conteiner_img" src="plamol.png">
+					<img class="container_img" src="plamol.png">
 					<div> 
 						<a href="index.html">
-						<button class="buttonPortifolio">Plamol</button>
+						<button class="buttonPortfolio">Plamol</button>
 						</a>
 					</div>
 				</div>
 
 				<div>
-					<img class="conteiner_img" src="resolucoesUefs.png">
+					<img class="container_img" src="resolucoesUefs.png">
 					<div> 
 						<a href="http://uefsresolve.ecompjr.com.br/">
-						<button class="buttonPortifolio">Resoluções UEFS</button>
+						<button class="buttonPortfolio">Resoluções UEFS</button>
 						</a>
 					</div>
 				</div>
@@ -290,10 +322,10 @@
 			<br>
 			<div class="container_portfolio">
 				<div>
-					<img class="conteiner_img" src="absman.png">
+					<img class="container_img" src="absman.png">
 					<div> 
 						<a href="https://absam.io/">
-						<button class="buttonPortifolio">ABSAM</button>
+						<button class="buttonPortfolio">ABSAM</button>
 						</a>
 					</div>
 				</div>
@@ -303,12 +335,12 @@
 		</div>
 
 <!------------------------------------CONTATO--------------------------------------->
-	<div id="divContato">
+	<div id="divContact">
 		<br>
-		<div class="titulo">
+		<div class="title">
 				ENTRE EM CONTATO
 		</div>
-		<div class="textContato">
+		<div class="textContact">
 			Deseja saber mais sobre nossos produtos e serviços? Gostaria de fazer o orçamento de algum projeto?<br> Acredita que uma parceria com a EcompJr seria uma boa ideia? <br> Para isso, e qualquer outra dúvida entre em contato!
 		</div>
 		<div  id="boxForm">
@@ -336,26 +368,26 @@
 		<div class="zoneBlack">
 			<div class="container">
 
-				<div class="conteiner_contate">
+				<div class="containerContact">
 					<h2>ENDEREÇO:</h2>
 					<div class=text>
 						UEFS - Avenida Transnordestina, s/nº - Módulo 5, MP 51A <br>Novo Horizonte,<br> Feira de Santana - BA,<br>CEP: 44036-900
 					</div>
 				</div>
 
-				<div class="conteiner_contate">
+				<div class="containerContact">
 					<h2>WHATSAPP:</h2>
 					<div class=text>
 						(75) 98897-6806
 					</div>
 				</div>
-				<div class="conteiner_contate">
+				<div class="containerContact">
 					<h2>EMAIL:</h2>
 					<div class=text>
 						ecompjr@uefs.br
 					</div>
 				</div>
-				<div class="conteiner_contate">
+				<div class="containerContact">
 					<h2>HORÁRIOS:</h2>
 					<div class=text>
 						Segunda à Sexta - <br>das 7:30 às 17:30
