@@ -7,10 +7,58 @@
 	flex-direction: column;
 	position: flex;
 	width:100%;
-	height:720px;
-	background: black;
+	height:615px;
+	background:#E5E5E5;
+	border-radius: 0px 0px 75px 75px;
 }
 
+.configurationIcon{
+	width:680px;
+	position: absolute;
+	left: 173px;
+	top: 150px;
+}
+.textIcon{
+	position: absolute;
+	left: 310px;
+	top: 310px;
+	font-family: Roboto;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+.textIdeia{
+	position: absolute;
+	width: 575px;
+	height: 91px;
+	left: 720px;
+	top: 435px;
+
+	font-family: Roboto;
+	font-weight: bold;
+	font-size:30px;
+	text-align: center;
+}
+.buttonHome{
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	left: 915px;
+	top: 530px;
+	background:white;
+	text-align: center;
+	cursor:pointer;
+	font-family: Roboto;
+	font-weight: bold;
+	font-size:20px;
+	text-align: center;
+}
+.imgIdeia{
+	position: absolute;
+	width: 109px;
+	left: 1120px;
+	top: 470px;
+}
 
 
 
@@ -249,7 +297,7 @@ h2{
 	position: relative;
 	width:100%;
 	height: 100%;
-	background: linear-gradient(to right,#00c4cc,#4682B4,#0174DF,#000080);
+	background: black;
 }
 /* ------------------------portifolio----------------------------------------------*/
 #designer_portfolio{
